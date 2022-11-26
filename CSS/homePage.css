@@ -1,1 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+a {
+    color: #000000;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    background-color: #9CC7D6;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-weight: 900;
+}
+
+li a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+li a:hover {
+    opacity: 0.6;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F5F8;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: #000035;
+    color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    border: #18044D 0.2rem solid;
+}
+
+button {
+    width: 50%;
+    margin-top: 5%;
+    padding: 1.5rem;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: #002C3A;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
